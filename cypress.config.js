@@ -9,7 +9,8 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     specPattern: [
       'cypress/e2e/**/*.cy.js',
-      'cypress/e2e/GET/*.js'
+      'cypress/e2e/GET/*.js',
+      'cypress/e2e/POST/*.js'
     ],
   },
   env: {
